@@ -1,26 +1,6 @@
-ITB 
+Blockchain Project
 
-1. Instalare ETH
-
-Foundry
-Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.
-Foundry consists of:
-Forge: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-Cast: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-Anvil: Local Ethereum node, akin to Ganache, Hardhat Network.
-
-2. Instalare SUI
-
-Sui Client CLI
-
-3. Instalare Meta Mask
-
-4. Instalare Sui Wallet
-
-4. Smart Contract ETH
-
-5. Smart Contract SUI
-
-6. Token Bridge
-
-7. Final (App)
+Step 1 - congure eth/sui node
+Step 2 - install MetaMask & Sui Wallet
+Step 3 - Create Smart Contracts
+Step 4 - Run App
