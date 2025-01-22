@@ -1,0 +1,72 @@
+/* src/styles.css */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.bridge-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.bridge-container h1 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.wallet-info {
+  margin-bottom: 20px;
+}
+
+.wallet-info p {
+  margin: 5px 0;
+}
+
+.bridge-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.bridge-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.bridge-form div {
+  margin-bottom: 10px;
+}
+
+.bridge-form label input[type="radio"] {
+  margin-right: 5px;
+}
+
+.bridge-submit {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bridge-submit:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.bridge-submit:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
